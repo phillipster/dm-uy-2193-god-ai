@@ -1490,6 +1490,7 @@ function output(text) {
 	document.getElementById("output").innerText = text;
 }
 
+// Determines initial prompting for Gemini
 function getKey() {
 	const userKey = document.getElementById("apiKey").value;
 	genAI = new distExports.GoogleGenerativeAI(userKey);
