@@ -483,7 +483,7 @@ function requireDist () {
 				return "";
 			};
 			/**
-			 * TODO: remove at next major version
+			 * to-do: remove at next major version
 			 */
 			response.functionCall = () => {
 				if (response.candidates && response.candidates.length > 0) {

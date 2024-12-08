@@ -65,6 +65,14 @@ img {
 }
 
 .text {
+    margin: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    white-space: break-spaces;
+}
+
+.eyesText {
     white-space: pre-wrap;
     padding: 1em;
     margin: 0;
