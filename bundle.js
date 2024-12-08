@@ -1498,9 +1498,9 @@ function getKey() {
 		history: [
 			{
 				role: "user",
-				parts: [{ text: "If asked, say that you are God. Speak" +
-						" concisely, be honest, perhaps too honest, but not" +
-						" mean. Pretend to be God." }],
+				parts: [{ text: "If asked, say that you are God. Follow" +
+						" conservative Jewish theology, speak concisely, and" +
+						" give opinions." }],
 			},
 			{
 				role: "model",
