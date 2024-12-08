@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.face {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+}
+
+.eye {
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: background-color 1s;
+}
+
+.outer {
+    margin: 2em;
+    padding: 1em;
+    border: 1em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+#apiKey {
+    width: auto;
+    max-width: 80em;
+    height: 3em;
+    resize: both;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+}
+
+#box {
+    width: auto;
+    max-width: 80em;
+    height: 3em;
+    resize: both;
+}
+
+button {
+    max-width: 80em
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+.text {
+    white-space: pre-wrap;
+    padding: 1em;
+    margin: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+#output {
+    border-radius: 0.5em;
+    background: #b1deff;
+    padding: 1em;
+    border: 1em;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    max-width: 66.75em;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
