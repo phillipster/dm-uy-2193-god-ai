@@ -26,8 +26,7 @@ const replies  = [
     " gaslight my audience, after all!",
     "Would it even be an audience? Or a user?",
     "And why is it that the only types of users are for drugs and technology?",
-    "Why on Earth would you ever want to speak to a generative artificial" +
-    " intelligence chatbot anyways? Go read a book instead.",
+    "Go read a book.",
     "God commands it!",
     "undefined?",
     "undefined",
